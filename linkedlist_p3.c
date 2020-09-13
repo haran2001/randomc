@@ -9,6 +9,7 @@ struct listNode{
 	struct listNode* link;
 };
 
+//redifining a listNode pointer
 typedef struct listNode* lptr;
 
 //function to count the number of nodes
@@ -23,7 +24,10 @@ int count(lptr p){
 
 //function for length1 <= length2
 void directJoin(lptr list1, lptr2 list2){
-	
+	while(list1->next != NULL){
+		list1 = list1->next;
+	}	
+	list1->next = list2;
 }
 
 //function for length1 > length2
