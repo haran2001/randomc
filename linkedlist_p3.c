@@ -32,8 +32,15 @@ void directJoin(lptr list1, lptr2 list2){
 
 //function for length1 > length2
 void alternateJoin(lptr list1, lptr2 list2){
-
+	while(list2 != NULL){
+		list2->next = list1;
+		list1->next = list2;
+		list2 = list2->next;
+		list2 = list2->next;
+	}	
 }
+
+//main function
 int main(){
 	int length1, length2;
 
