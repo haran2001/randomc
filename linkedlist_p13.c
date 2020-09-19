@@ -41,6 +41,7 @@ void mult(int** a, int** b, int** c, int rows){
 
 //main function
 int main(){
+	//test case with array of 5 rows AND 5 columns
 	int **ptr1, **ptr2, **ptr3, i = 0,j = 0;
 	int rows = 5, columns = 5;
 	

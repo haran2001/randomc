@@ -1,3 +1,4 @@
+//program to delete the selected node
 #include<stdio.h>
 #include<stdlib.h>
 

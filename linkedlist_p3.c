@@ -1,4 +1,4 @@
-//Linked list problem 3
+//program to merge two linked lists
 
 #include<stdio.h>
 #include<stdlib.h>
